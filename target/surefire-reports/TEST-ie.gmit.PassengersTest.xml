@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ie.gmit.PassengersTest" time="0.069" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ie.gmit.PassengersTest" time="0.069" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\g00372455\AppData\Local\Temp\surefire5851619392793927691\surefirebooter3846005472917856995.jar C:\Users\g00372455\AppData\Local\Temp\surefire5851619392793927691 2022-02-09T10-25-09_138-jvmRun1 surefire16501035552969726003tmp surefire_011477488410916694807tmp"/>
+    <property name="sun.java.command" value="C:\Users\g00372455\AppData\Local\Temp\surefire13746453863432500927\surefirebooter6746533165107467255.jar C:\Users\g00372455\AppData\Local\Temp\surefire13746453863432500927 2022-02-09T10-29-09_533-jvmRun1 surefire12837472214614524981tmp surefire_05842676944373363726tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\g00372455\OneDrive - GMIT\Fourth Year\Eng Test\Passengers\target\test-classes;C:\Users\g00372455\OneDrive - GMIT\Fourth Year\Eng Test\Passengers\target\classes;C:\Users\g00372455\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.9.0\maven-compiler-plugin-3.9.0.jar;C:\Users\g00372455\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\g00372455\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\g00372455\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\g00372455\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\g00372455\.m2\repository\org\codehaus\plexus\plexus-java\1.1.0\plexus-java-1.1.0.jar;C:\Users\g00372455\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\g00372455\.m2\repository\com\thoughtworks\qdox\qdox\2.0.0\qdox-2.0.0.jar;C:\Users\g00372455\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.9.0\plexus-compiler-api-2.9.0.jar;C:\Users\g00372455\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\g00372455\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.9.0\plexus-compiler-manager-2.9.0.jar;C:\Users\g00372455\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.9.0\plexus-compiler-javac-2.9.0.jar;C:\Users\g00372455\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\g00372455\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\g00372455\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\g00372455\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\g00372455\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\g00372455\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\g00372455\AppData\Local\Temp\surefire5851619392793927691\surefirebooter3846005472917856995.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\g00372455\AppData\Local\Temp\surefire13746453863432500927\surefirebooter6746533165107467255.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -65,6 +65,10 @@
 ]]></system-out>
   </testcase>
   <testcase name="testConstructorInvalidName" classname="ie.gmit.PassengersTest" time="0"/>
+  <testcase name="testConstructorPhone" classname="ie.gmit.PassengersTest" time="0">
+    <system-out><![CDATA[7
+]]></system-out>
+  </testcase>
   <testcase name="testConstructorTitle" classname="ie.gmit.PassengersTest" time="0">
     <system-out><![CDATA[7
 ]]></system-out>
@@ -73,5 +77,9 @@
     <system-out><![CDATA[7
 ]]></system-out>
   </testcase>
-  <testcase name="testConstructorInvalidTitle" classname="ie.gmit.PassengersTest" time="0.015"/>
+  <testcase name="testConstructorInvalidPhone" classname="ie.gmit.PassengersTest" time="0">
+    <system-out><![CDATA[6
+]]></system-out>
+  </testcase>
+  <testcase name="testConstructorInvalidTitle" classname="ie.gmit.PassengersTest" time="0"/>
 </testsuite>
