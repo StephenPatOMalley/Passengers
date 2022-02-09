@@ -35,9 +35,25 @@ public class PassengersTest {
     @Test
     void testConstructorInvalidName()
     {
-        final String invalid = "Invalid title provided";
+        final String invalidName = "Invalid name provided";
         Exception exceptionThrown = assertThrows(IllegalArgumentException.class,
-                ()-> new Passengers("Miss", "Po", "894rtho409235","0987076831", 20));
-        assertEquals(invalid, exceptionThrown.getMessage());
+                ()-> new Passengers("Mr", "Po", "894rtho409235","0987076831", 20));
+        assertEquals(invalidName, exceptionThrown.getMessage());
+    }
+
+    @Test
+    void testConstructorID()
+    {
+        pass = new Passengers("Mr", "Stephen", "894rtho409235","0987076831", 20);
+        assertEquals("894rtho409235", pass.getPassID());
+    }
+
+    @Test
+    void testConstructorInvalidID()
+    {
+        final String invalidID = "Invalid ID provided";
+        Exception exceptionThrown = assertThrows(IllegalArgumentException.class,
+                ()-> new Passengers("Mr", "Potato", "45326","0987076831", 20));
+        assertEquals(invalidID, exceptionThrown.getMessage());
     }
 }
