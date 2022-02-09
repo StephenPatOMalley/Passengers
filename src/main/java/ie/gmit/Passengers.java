@@ -39,10 +39,12 @@ public class Passengers {
     }
 
     public void setPassName(String passName) {
-        if (passName.length() <= minNameLen){
+        if (passName.length() >= minNameLen){
+            System.out.println(passName.length());
             this.passName = passName;
         }
-        else{
+        else
+        {
             throw new IllegalArgumentException("Invalid name provided");
         }
     }
@@ -52,7 +54,7 @@ public class Passengers {
     }
 
     public void setPassID(String passID) {
-        if (passID.length() <= minIDLen){
+        if (passID.length() >= minIDLen){
             this.passID = passID;
         }
         else{
@@ -65,7 +67,7 @@ public class Passengers {
     }
 
     public void setPassPhone(String passPhone) {
-        if (passPhone.length() <= minPhoneLen){
+        if (passPhone.length() >= minPhoneLen){
             this.passPhone = passPhone;
         }
         else{
@@ -78,7 +80,7 @@ public class Passengers {
     }
 
     public void setPassAge(int passAge) {
-        if (passAge <= minAge){
+        if (passAge >= minAge){
             this.passAge = passAge;
         }
         else{
